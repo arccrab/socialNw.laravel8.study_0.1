@@ -1,0 +1,299 @@
+2020/09/10 23:25:03 [debug] 2268#2268: epoll add event: fd:6 op:1 ev:00002001
+2020/09/10 23:25:21 [debug] 2268#2268: accept on 0.0.0.0:80, ready: 0
+2020/09/10 23:25:21 [debug] 2268#2268: posix_memalign: 00005580310C0240:512 @16
+2020/09/10 23:25:21 [debug] 2268#2268: *4 accept: 195.140.224.29:50119 fd:4
+2020/09/10 23:25:21 [debug] 2268#2268: *4 event timer add: 4: 60000:1144440
+2020/09/10 23:25:21 [debug] 2268#2268: *4 reusable connection: 1
+2020/09/10 23:25:21 [debug] 2268#2268: *4 epoll add event: fd:4 op:1 ev:80002001
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http wait request handler
+2020/09/10 23:25:21 [debug] 2268#2268: *4 malloc: 00005580310A66D0:1024
+2020/09/10 23:25:21 [debug] 2268#2268: *4 recv: eof:0, avail:-1
+2020/09/10 23:25:21 [debug] 2268#2268: *4 recv: fd:4 472 of 1024
+2020/09/10 23:25:21 [debug] 2268#2268: *4 reusable connection: 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 posix_memalign: 00005580310D4AF0:4096 @16
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http process request line
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http request line: "GET / HTTP/1.1"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http uri: "/"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http args: ""
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http exten: ""
+2020/09/10 23:25:21 [debug] 2268#2268: *4 posix_memalign: 00005580310C6090:4096 @16
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http process request header line
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "Host: 91.228.218.133"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "Connection: keep-alive"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "Cache-Control: max-age=0"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "DNT: 1"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "Upgrade-Insecure-Requests: 1"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "Accept-Encoding: gzip, deflate"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "Accept-Language: en-US,en;q=0.9"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header done
+2020/09/10 23:25:21 [debug] 2268#2268: *4 event timer del: 4: 1144440
+2020/09/10 23:25:21 [debug] 2268#2268: *4 generic phase: 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 rewrite phase: 1
+2020/09/10 23:25:21 [debug] 2268#2268: *4 test location: "/"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 test location: ~ "\.php$"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 test location: ~ "/\.(?!well-known).*"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 using configuration "/"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http cl:-1 max:1048576
+2020/09/10 23:25:21 [debug] 2268#2268: *4 rewrite phase: 3
+2020/09/10 23:25:21 [debug] 2268#2268: *4 post rewrite phase: 4
+2020/09/10 23:25:21 [debug] 2268#2268: *4 generic phase: 5
+2020/09/10 23:25:21 [debug] 2268#2268: *4 generic phase: 6
+2020/09/10 23:25:21 [debug] 2268#2268: *4 generic phase: 7
+2020/09/10 23:25:21 [debug] 2268#2268: *4 access phase: 8
+2020/09/10 23:25:21 [debug] 2268#2268: *4 access phase: 9
+2020/09/10 23:25:21 [debug] 2268#2268: *4 access phase: 10
+2020/09/10 23:25:21 [debug] 2268#2268: *4 post access phase: 11
+2020/09/10 23:25:21 [debug] 2268#2268: *4 generic phase: 12
+2020/09/10 23:25:21 [debug] 2268#2268: *4 try files handler
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script var: "/"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 trying to use file: "/" "/home/web/social/public/"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script var: "/"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 trying to use dir: "/" "/home/web/social/public/"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 try file uri: "/"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 generic phase: 13
+2020/09/10 23:25:21 [debug] 2268#2268: *4 content phase: 14
+2020/09/10 23:25:21 [debug] 2268#2268: *4 content phase: 15
+2020/09/10 23:25:21 [debug] 2268#2268: *4 open index "/home/web/social/public/index.php"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 internal redirect: "/index.php?"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 rewrite phase: 1
+2020/09/10 23:25:21 [debug] 2268#2268: *4 test location: "/"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 test location: "robots.txt"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 test location: "favicon.ico"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 test location: ~ "\.php$"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 using configuration "\.php$"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http cl:-1 max:1048576
+2020/09/10 23:25:21 [debug] 2268#2268: *4 rewrite phase: 3
+2020/09/10 23:25:21 [debug] 2268#2268: *4 post rewrite phase: 4
+2020/09/10 23:25:21 [debug] 2268#2268: *4 generic phase: 5
+2020/09/10 23:25:21 [debug] 2268#2268: *4 generic phase: 6
+2020/09/10 23:25:21 [debug] 2268#2268: *4 generic phase: 7
+2020/09/10 23:25:21 [debug] 2268#2268: *4 access phase: 8
+2020/09/10 23:25:21 [debug] 2268#2268: *4 access phase: 9
+2020/09/10 23:25:21 [debug] 2268#2268: *4 access phase: 10
+2020/09/10 23:25:21 [debug] 2268#2268: *4 post access phase: 11
+2020/09/10 23:25:21 [debug] 2268#2268: *4 generic phase: 12
+2020/09/10 23:25:21 [debug] 2268#2268: *4 generic phase: 13
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http init upstream, client timer: 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 epoll add event: fd:4 op:3 ev:80002005
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "SCRIPT_FILENAME"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script var: "/home/web/social/public"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script var: "/index.php"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "SCRIPT_FILENAME: /home/web/social/public/index.php"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "QUERY_STRING"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "QUERY_STRING: "
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "REQUEST_METHOD"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script var: "GET"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "REQUEST_METHOD: GET"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "CONTENT_TYPE"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "CONTENT_TYPE: "
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "CONTENT_LENGTH"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "CONTENT_LENGTH: "
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "SCRIPT_NAME"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script var: "/index.php"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "SCRIPT_NAME: /index.php"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "REQUEST_URI"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script var: "/"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "REQUEST_URI: /"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "DOCUMENT_URI"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script var: "/index.php"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "DOCUMENT_URI: /index.php"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "DOCUMENT_ROOT"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script var: "/home/web/social/public"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "DOCUMENT_ROOT: /home/web/social/public"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "SERVER_PROTOCOL"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script var: "HTTP/1.1"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "SERVER_PROTOCOL: HTTP/1.1"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "REQUEST_SCHEME"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script var: "http"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "REQUEST_SCHEME: http"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: ""
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "GATEWAY_INTERFACE"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "CGI/1.1"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "GATEWAY_INTERFACE: CGI/1.1"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "SERVER_SOFTWARE"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "nginx/"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script var: "1.18.0"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "SERVER_SOFTWARE: nginx/1.18.0"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "REMOTE_ADDR"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script var: "195.140.224.29"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "REMOTE_ADDR: 195.140.224.29"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "REMOTE_PORT"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script var: "50119"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "REMOTE_PORT: 50119"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "SERVER_ADDR"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script var: "91.228.218.133"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "SERVER_ADDR: 91.228.218.133"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "SERVER_PORT"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script var: "80"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "SERVER_PORT: 80"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "SERVER_NAME"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script var: "91.228.218.133"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "SERVER_NAME: 91.228.218.133"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "REDIRECT_STATUS"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http script copy: "200"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "REDIRECT_STATUS: 200"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "HTTP_HOST: 91.228.218.133"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "HTTP_CONNECTION: keep-alive"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "HTTP_CACHE_CONTROL: max-age=0"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "HTTP_DNT: 1"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "HTTP_UPGRADE_INSECURE_REQUESTS: 1"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "HTTP_USER_AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "HTTP_ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "HTTP_ACCEPT_ENCODING: gzip, deflate"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 fastcgi param: "HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.9"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http cleanup add: 00005580310C6EB8
+2020/09/10 23:25:21 [debug] 2268#2268: *4 get rr peer, try: 1
+2020/09/10 23:25:21 [debug] 2268#2268: *4 stream socket 5
+2020/09/10 23:25:21 [debug] 2268#2268: *4 epoll add connection: fd:5 ev:80002005
+2020/09/10 23:25:21 [debug] 2268#2268: *4 connect to unix:/var/run/php/php7.4-fpm.sock, fd:5 #5
+2020/09/10 23:25:21 [crit] 2268#2268: *4 connect() to unix:/var/run/php/php7.4-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 195.140.224.29, server: 91.228.218.133, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "91.228.218.133"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 reusable connection: 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http upstream connect: -5
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http next upstream, 2
+2020/09/10 23:25:21 [debug] 2268#2268: *4 free rr peer 1 4
+2020/09/10 23:25:21 [debug] 2268#2268: *4 finalize http upstream request: 502
+2020/09/10 23:25:21 [debug] 2268#2268: *4 finalize http fastcgi request
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http finalize request: 502, "/index.php?" a:1, c:3
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http special response: 502, "/index.php?"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 charset: "" > "utf-8"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 HTTP/1.1 502 Bad Gateway
+Server: nginx/1.18.0
+Date: Thu, 10 Sep 2020 20:25:21 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 559
+Connection: keep-alive
+
+2020/09/10 23:25:21 [debug] 2268#2268: *4 write new buf t:1 f:0 00005580310C6F48, pos 00005580310C6F48, size: 172 file: 0, size: 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http write filter: l:0 f:0 s:172
+2020/09/10 23:25:21 [debug] 2268#2268: *4 posix_memalign: 00005580310C70A0:4096 @16
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http output filter "/index.php?"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http copy filter: "/index.php?"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http postpone filter "/index.php?" 00005580310C7068
+2020/09/10 23:25:21 [debug] 2268#2268: *4 write old buf t:1 f:0 00005580310C6F48, pos 00005580310C6F48, size: 172 file: 0, size: 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 write new buf t:0 f:0 0000000000000000, pos 000055802FBBBB80, size: 104 file: 0, size: 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 write new buf t:0 f:0 0000000000000000, pos 000055802FBBCE20, size: 53 file: 0, size: 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 write new buf t:0 f:0 0000000000000000, pos 000055802FBBCC00, size: 402 file: 0, size: 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http write filter: l:1 f:0 s:731
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http write filter limit 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 writev: 731 of 731
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http write filter 0000000000000000
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http copy filter: 0 "/index.php?"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http finalize request: 0, "/index.php?" a:1, c:3
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http request count:3 blk:0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http finalize request: -4, "/index.php?" a:1, c:2
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http request count:2 blk:0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http finalize request: -4, "/index.php?" a:1, c:1
+2020/09/10 23:25:21 [debug] 2268#2268: *4 set http keepalive handler
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http close request
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http log handler
+2020/09/10 23:25:21 [debug] 2268#2268: *4 free: 00005580310D4AF0, unused: 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 free: 00005580310C6090, unused: 8
+2020/09/10 23:25:21 [debug] 2268#2268: *4 free: 00005580310C70A0, unused: 3470
+2020/09/10 23:25:21 [debug] 2268#2268: *4 free: 00005580310A66D0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 hc free: 0000000000000000
+2020/09/10 23:25:21 [debug] 2268#2268: *4 hc busy: 0000000000000000 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 tcp_nodelay
+2020/09/10 23:25:21 [debug] 2268#2268: *4 reusable connection: 1
+2020/09/10 23:25:21 [debug] 2268#2268: *4 event timer add: 4: 75000:1159440
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http empty handler
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http keepalive handler
+2020/09/10 23:25:21 [debug] 2268#2268: *4 malloc: 00005580310A66D0:1024
+2020/09/10 23:25:21 [debug] 2268#2268: *4 recv: eof:0, avail:-1
+2020/09/10 23:25:21 [debug] 2268#2268: *4 recv: fd:4 418 of 1024
+2020/09/10 23:25:21 [debug] 2268#2268: *4 reusable connection: 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 posix_memalign: 00005580310D4AF0:4096 @16
+2020/09/10 23:25:21 [debug] 2268#2268: *4 event timer del: 4: 1159440
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http process request line
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http request line: "GET /favicon.ico HTTP/1.1"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http uri: "/favicon.ico"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http args: ""
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http exten: "ico"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 posix_memalign: 00005580310C6090:4096 @16
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http process request header line
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "Host: 91.228.218.133"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "Connection: keep-alive"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "Pragma: no-cache"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "Cache-Control: no-cache"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "DNT: 1"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "Referer: http://91.228.218.133/"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "Accept-Encoding: gzip, deflate"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header: "Accept-Language: en-US,en;q=0.9"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http header done
+2020/09/10 23:25:21 [debug] 2268#2268: *4 generic phase: 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 rewrite phase: 1
+2020/09/10 23:25:21 [debug] 2268#2268: *4 test location: "/"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 test location: "robots.txt"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 test location: "favicon.ico"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 using configuration "=/favicon.ico"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http cl:-1 max:1048576
+2020/09/10 23:25:21 [debug] 2268#2268: *4 rewrite phase: 3
+2020/09/10 23:25:21 [debug] 2268#2268: *4 post rewrite phase: 4
+2020/09/10 23:25:21 [debug] 2268#2268: *4 generic phase: 5
+2020/09/10 23:25:21 [debug] 2268#2268: *4 generic phase: 6
+2020/09/10 23:25:21 [debug] 2268#2268: *4 generic phase: 7
+2020/09/10 23:25:21 [debug] 2268#2268: *4 access phase: 8
+2020/09/10 23:25:21 [debug] 2268#2268: *4 access phase: 9
+2020/09/10 23:25:21 [debug] 2268#2268: *4 access phase: 10
+2020/09/10 23:25:21 [debug] 2268#2268: *4 post access phase: 11
+2020/09/10 23:25:21 [debug] 2268#2268: *4 generic phase: 12
+2020/09/10 23:25:21 [debug] 2268#2268: *4 generic phase: 13
+2020/09/10 23:25:21 [debug] 2268#2268: *4 content phase: 14
+2020/09/10 23:25:21 [debug] 2268#2268: *4 content phase: 15
+2020/09/10 23:25:21 [debug] 2268#2268: *4 content phase: 16
+2020/09/10 23:25:21 [debug] 2268#2268: *4 content phase: 17
+2020/09/10 23:25:21 [debug] 2268#2268: *4 content phase: 18
+2020/09/10 23:25:21 [debug] 2268#2268: *4 content phase: 19
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http filename: "/home/web/social/public/favicon.ico"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 add cleanup: 00005580310D59C8
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http static fd: 5
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http set discard body
+2020/09/10 23:25:21 [debug] 2268#2268: *4 charset: "" > "utf-8"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Thu, 10 Sep 2020 20:25:21 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 0
+Last-Modified: Thu, 10 Sep 2020 19:47:07 GMT
+Connection: keep-alive
+ETag: "5f5a82bb-0"
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Accept-Ranges: bytes
+
+2020/09/10 23:25:21 [debug] 2268#2268: *4 write new buf t:1 f:0 00005580310C6558, pos 00005580310C6558, size: 345 file: 0, size: 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http write filter: l:0 f:0 s:345
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http output filter "/favicon.ico?"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http copy filter: "/favicon.ico?"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http postpone filter "/favicon.ico?" 00007FFD48569390
+2020/09/10 23:25:21 [debug] 2268#2268: *4 write old buf t:1 f:0 00005580310C6558, pos 00005580310C6558, size: 345 file: 0, size: 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http write filter: l:1 f:0 s:345
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http write filter limit 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 writev: 345 of 345
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http write filter 0000000000000000
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http copy filter: 0 "/favicon.ico?"
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http finalize request: 0, "/favicon.ico?" a:1, c:1
+2020/09/10 23:25:21 [debug] 2268#2268: *4 set http keepalive handler
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http close request
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http log handler
+2020/09/10 23:25:21 [debug] 2268#2268: *4 run cleanup: 00005580310D59C8
+2020/09/10 23:25:21 [debug] 2268#2268: *4 file cleanup: fd:5
+2020/09/10 23:25:21 [debug] 2268#2268: *4 free: 00005580310D4AF0, unused: 8
+2020/09/10 23:25:21 [debug] 2268#2268: *4 free: 00005580310C6090, unused: 2352
+2020/09/10 23:25:21 [debug] 2268#2268: *4 free: 00005580310A66D0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 hc free: 0000000000000000
+2020/09/10 23:25:21 [debug] 2268#2268: *4 hc busy: 0000000000000000 0
+2020/09/10 23:25:21 [debug] 2268#2268: *4 reusable connection: 1
+2020/09/10 23:25:21 [debug] 2268#2268: *4 event timer add: 4: 75000:1159556
+2020/09/10 23:25:21 [debug] 2268#2268: *4 http empty handler
+2020/09/10 23:26:36 [debug] 2268#2268: *4 event timer del: 4: 1159556
+2020/09/10 23:26:36 [debug] 2268#2268: *4 http keepalive handler
+2020/09/10 23:26:36 [debug] 2268#2268: *4 close http connection: 4
+2020/09/10 23:26:36 [debug] 2268#2268: *4 reusable connection: 0
+2020/09/10 23:26:36 [debug] 2268#2268: *4 free: 0000000000000000
+2020/09/10 23:26:36 [debug] 2268#2268: *4 free: 00005580310C0240, unused: 120
