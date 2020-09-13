@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +15,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return 'index page';
 });
+
+
+Route::get('/user/{id}', [UserController::class, 'index'])->name('profile');
+Route::get('/user/{id}/posts', [UserController::class, 'posts']);
+Route::post('/post/create', [UserController::class, 'createPost'])->name('create-post');
